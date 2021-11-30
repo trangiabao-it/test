@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Leave" max_length="40" name="x_726452_demo_leave" sizeclass="1" type="collection">
+        <element label="Day Request" mandatory="true" max_length="40" name="day_request" type="glide_date"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Reason" mandatory="true" max_length="40" name="reason" type="string"/>
+        <element label="Request For" mandatory="true" max_length="32" name="request_for" reference="x_726452_demo_employee" type="reference"/>
+        <element choice="1" default="pending" label="Status" max_length="40" name="status" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Reject" sequence="2" value="reject"/>
+            </choice>
+        </element>
+        <element label="Title" mandatory="true" max_length="40" name="title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="From Department" max_length="40" name="u_from_department" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="From Department" max_length="40" name="u_string_1" read_only="true" type="string"/>
+        <index name="index">
+            <element name="request_for"/>
+        </index>
+    </element>
+</database>

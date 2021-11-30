@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order/>
+        <roles>x_726452_demo.demo_manager,x_726452_demo.demo_employee</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-22 03:48:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d5987e1c1b4001106b40c841604bcbe1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Demo</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="demo" source="x_726452_demo">8a387a5c1b4001106b40c841604bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demo">8a387a5c1b4001106b40c841604bcba5</sys_scope>
+        <sys_update_name>sys_app_application_d5987e1c1b4001106b40c841604bcbe1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:59:09</sys_updated_on>
+        <title>Demo</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

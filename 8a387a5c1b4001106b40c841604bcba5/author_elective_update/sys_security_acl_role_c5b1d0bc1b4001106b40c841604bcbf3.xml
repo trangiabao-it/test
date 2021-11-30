@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-23 04:55:51</sys_created_on>
+        <sys_id>c5b1d0bc1b4001106b40c841604bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_726452_demo_department.x_726452_demo.department_user</sys_name>
+        <sys_package display_value="demo" source="x_726452_demo">8a387a5c1b4001106b40c841604bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demo">8a387a5c1b4001106b40c841604bcba5</sys_scope>
+        <sys_security_acl display_value="x_726452_demo_department">09b1d0bc1b4001106b40c841604bcbf0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c5b1d0bc1b4001106b40c841604bcbf3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-23 04:55:51</sys_updated_on>
+        <sys_user_role display_value="x_726452_demo.department_user" name="x_726452_demo.department_user">f4b110bc1b4001106b40c841604bcbd8</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="demo">8a387a5c1b4001106b40c841604bcba5</application>
+        <file_path/>
+        <instance_id>16a5a4e9dbb72410f37acac5059619bb</instance_id>
+        <instance_name>dev112514</instance_name>
+        <name>sys_security_acl_role_c5b1d0bc1b4001106b40c841604bcbf3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-11-23 04:55:51</sys_created_on><sys_id>c5b1d0bc1b4001106b40c841604bcbf3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_726452_demo_department.x_726452_demo.department_user</sys_name><sys_package display_value="demo" source="x_726452_demo">8a387a5c1b4001106b40c841604bcba5</sys_package><sys_policy/><sys_scope display_value="demo">8a387a5c1b4001106b40c841604bcba5</sys_scope><sys_security_acl display_value="x_726452_demo_department">09b1d0bc1b4001106b40c841604bcbf0</sys_security_acl><sys_update_name>sys_security_acl_role_c5b1d0bc1b4001106b40c841604bcbf3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-11-23 04:55:51</sys_updated_on><sys_user_role display_value="x_726452_demo.department_user" name="x_726452_demo.department_user">f4b110bc1b4001106b40c841604bcbd8</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1409853832</payload_hash>
+        <record_name>x_726452_demo_department.x_726452_demo.department_user</record_name>
+        <reverted_from/>
+        <source>4e387a5c1b4001106b40c841604bcba7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-23 04:55:51</sys_created_on>
+        <sys_id>41b1d0bc1b4001106b40c841604bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d4b2676000000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-23 04:55:51</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>89b1d0bcf0400110033dd329bbdef4f5</update_guid>
+        <update_guid_history>89b1d0bcf0400110033dd329bbdef4f5:-1409853832</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_726452_demo_department.x_726452_demo.department_user">9296c5f41b0401106b40c841604bcb57</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-23 08:46:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>2eba781bc7aa4cb88dc7513b0d3d3640</sys_id>
+        <sys_metadata>c5b1d0bc1b4001106b40c841604bcbf3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_726452_demo_department.x_726452_demo.department_user</sys_name>
+        <sys_package display_value="demo" source="x_726452_demo">8a387a5c1b4001106b40c841604bcba5</sys_package>
+        <sys_parent display_value="x_726452_demo_department">09b1d0bc1b4001106b40c841604bcbf0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="demo">8a387a5c1b4001106b40c841604bcba5</sys_scope>
+        <sys_scope_delete display_value="">1ae480eea2914af3aea6c479b96edff9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_c5b1d0bc1b4001106b40c841604bcbf3</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_c5b1d0bc1b4001106b40c841604bcbf3">41b1d0bc1b4001106b40c841604bcbf6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-23 08:46:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Employee" max_length="40" name="x_726452_demo_employee" sizeclass="7" type="collection">
+        <element default="0" label="Age" max_length="40" name="age" read_only="true" type="integer"/>
+        <element label="Day Of Birth" mandatory="true" max_length="40" name="day_of_birth" type="glide_date"/>
+        <element dependent="u_reference_1" dependent_on_field="u_reference_1" label="Department" mandatory="true" max_length="40" name="department" reference="x_726452_demo_department" type="reference" use_dependent_field="true"/>
+        <element label="Fullname" mandatory="true" max_length="50" name="fullname" type="string_full_utf8"/>
+        <element default="5" label="LeaveDayLeft" max_length="40" name="leavedayleft" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" default="inactive" label="Status" max_length="40" name="status" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+                <element inactive_on_update="false" label="Inactive" sequence="1" value="inactive"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Request For" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_reference_1"/>
+        </index>
+    </element>
+</database>
